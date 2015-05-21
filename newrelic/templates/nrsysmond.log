@@ -1,0 +1,3 @@
+license_key={{ salt['pillar.get']('newrelic:apikey', '') }}
+loglevel=info
+logfile=/var/log/newrelic/nrsysmond.log
