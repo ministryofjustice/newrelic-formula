@@ -19,7 +19,8 @@ newrelic-sysmond:
     - require:
       - pkg: newrelic-sysmond
 
-docker:
+docker_group:
   group.present:
+    - name: docker
     - addusers:
       - newrelic
